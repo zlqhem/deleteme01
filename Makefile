@@ -1,6 +1,6 @@
-CC := gcc
-CXX := g++
-OBJDUMP := objdump
+CC := $(CROSS)gcc
+CXX := $(CROSS)g++
+OBJDUMP := $(CROSS)objdump
 
 V1_CPP_SRCS := common.cpp 
 V1_C_SRCS := v1.c mytimer.c
